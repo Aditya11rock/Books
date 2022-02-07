@@ -1,0 +1,43 @@
+body{
+	
+     background-color: lightgrey;
+     width:600px;
+     margin:auto;
+}
+
+img{
+	 margin-left:200px;
+    border-radius: 60%;
+    padding-bottom: 0px;
+    position: relative;
+    top: 20px;
+}
+div {
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+	text-shadow: 3px 2px 5px red,6px 4px 9px blue;
+	position: relative;
+    bottom: 20px;
+    text-decoration: underline;
+}
+h2{
+	font-family: cursive;
+	color:red; 
+	position: relative;
+	bottom: 40px;
+	display: inline;
+}
+em{
+	color: darkgreen;
+	font-size: 25px;
+	text-shadow:3px 2px 4px yellow,-3px -2px 5px red;
+}
+.flame{
+	font-family: Comic Sans MS;
+	color: blue;
+	position: relative;
+	font-size: 20px;
+	bottom: 40px;
+	display: inline;
+}

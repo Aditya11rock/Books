@@ -1,0 +1,188 @@
+﻿body{
+	background-color: silver;
+}
+.date{
+    margin: 0px 0px;
+    height:150px;
+    color: white;
+    background-color:black;
+    font-weight: bold;
+}
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+
+}
+.date h3{
+	color:firebrick;
+	font-size: 30px;
+	padding-left: 145px;
+	margin: 0px 0px;
+
+}
+.date h5{
+	margin: 0px 0px;
+	margin-right: 20px;
+	font-size: 15px;
+	color: lightgrey;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: sans-serif;
+	text-align: right;
+
+}
+.date h1{
+	margin: 0px 0px;
+	font-size: 80px;
+	line-height: 80px;
+	font-family: cursive;
+	padding-left: 150px;
+}
+.date h1 em{
+	font-style: normal;
+	color: firebrick;
+	line-height: 80px;
+	font-weight: bold;
+}
+.date a{
+	color: white;
+	text-decoration: none;
+}
+.navigate{
+	margin: 0px 0px;
+	height: 50px;
+	background-color: tomato;
+	color: white;
+}
+.navigate ul{
+	list-style: none;
+	text-decoration: none;
+	margin: 0px 0px;
+}
+.navigate a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+.navigate a:hover{
+	height: 100px;
+	color: black;
+	background-color: white;
+}
+.navigate li{
+	position: relative;
+	top: 15px;
+	padding-right: 8px;
+	display: inline;
+} 
+.navigate li:hover{
+	height: 50px;
+	background-color: white;
+}
+.box1{
+	margin-top: 10px;
+	width: 280px;
+	height: 100px;
+	position: relative;
+	bottom: 10px;
+}
+
+.heade img{
+  border-radius: 50%;
+  height: 70px;
+  float: left;
+  padding-top: 10px;
+
+}
+.box1 p{
+	width: 200px;
+	float: right;
+}
+.box2{
+	margin-top: 10px;
+	width: 280px;
+	height: 100px;
+    position: relative;
+    left: 300px;
+    bottom: 120px;
+
+}
+.box3{
+	margin-top: 10px;
+	width: 280px;
+	height: 100px;
+position: relative;
+left: 600px;
+bottom: 230px;
+
+}
+.box2 p{
+	width: 200px;
+	float: right;
+}
+.box3 p{
+	width: 200px;
+	float: right;
+}
+.heade ul{
+	list-style: none;
+	display: inline;
+}
+.heade p{
+	font-family: sans-serif;
+}
+.heade a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+.midbody {
+	width: 1260px;
+	height: 700px;
+	position: relative;
+	left: 40px;
+	bottom: 220px;
+	background-color: white;
+
+}
+.midbody img{
+  margin:0px 0px;
+}
+#lark{
+	display: inline;
+	text-align: center;
+	position: relative;
+	bottom: 400px;
+	left: 50px;
+	font-size: 50px;
+	font-family: cursive;
+	text-decoration: underline;
+
+}
+#orange{
+	color: orange;
+}
+#red{
+	color: red;
+}
+#blue{
+	color: blue;
+}
+#violet{
+	color: violet;
+}
+#green{
+	color: green;
+}
+.inner{
+	width: 130px;
+	height: 450px;
+	margin: 0px 0px;
+	background-color: black;
+	position: relative;
+	float: right;
+	top: 150px;
+	right: 50px;
+	color: white;
+
+}

@@ -1,0 +1,43 @@
+﻿ul li{
+	list-style: none;
+    padding: 10px;
+}
+ul{padding: 10px;
+	
+}
+label{
+	display: block;
+	cursor: pointer;
+	padding-left: 10px;
+}
+div{
+	
+}
+body{
+	width: 50%;
+	margin: auto;
+}
+h1{
+	display: unset;
+	text-align: right;
+	font-size: 50px;
+	font-family: sans-serif;
+
+}
+.fame li :hover{
+   color: red;
+}
+
+textarea{
+	width:200px;
+	height: 200px;
+}
+
+body{
+	background: url(image/download.jpg)no-repeat;
+   background-position: 50% 40%;
+   background-color: rgba(50,50,50,0.2);
+   width:600px;
+   margin: auto;
+
+}

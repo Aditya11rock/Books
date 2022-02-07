@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.cloud{
+	height:100vh;
+	width:100%;
+	background-image: url(cloudpro.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+
+}
+.road{
+	height: 100vh;
+	width: 100%;
+	background-image: url(roadpro3.jpg);
+	background-size:cover;
+	padding-bottom: 380px;
+	background-size: cover;
+	position: absolute;
+
+}
+.car{
+	height: 100px;
+	width: 280px;
+	background-image: url(carpro2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 400px;
+	bottom: 100px;
+
+}

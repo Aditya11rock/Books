@@ -1,0 +1,54 @@
+a{
+	text-decoration: none;
+}
+aside ul{
+	padding-left: 10px;
+	list-style: none;
+float: left;
+padding-left: 0px;
+min-width: 30px;
+}
+aside{
+	float: left;
+padding-left: 0px;
+min-width: 30%;
+background-color: none;
+}
+
+body{
+	width: 50%;
+	margin: auto;
+}
+
+
+div p{
+	 font-family:monospace;
+}
+h2{
+	
+	text-decoration-line: underline;
+}
+.fare li{
+	display: inline;
+	padding-right: 10px;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: red;
+	font-style: italic;
+}
+.fare a:hover{
+	text-decoration: underline;
+	color: orange;
+	font-style: italic;
+}
+.tame{
+	background-color: aqua;
+	height: 500px;
+}
+.fam a:hover{
+	text-decoration: underline;
+	font-style: italic;
+	color: black;
+}

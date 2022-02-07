@@ -1,0 +1,96 @@
+﻿.box{
+width:800px;
+height:700px;
+margin:auto;
+position: relative;
+background-color: lightpink;
+bottom: 10px;
+
+}
+h1{
+	font-family:cursive;
+	position: relative;
+    text-align: center;
+    font-size: 40px;
+	letter-spacing: 2px;
+	top:10px;
+}
+.bant{
+   width: 600px;
+   height: 600px;
+   position: relative;
+   background-color: white;
+   margin: auto;
+   border-radius: 20px;
+   bottom: 10px;
+}
+.ases{
+	position: relative;
+	left:60px;
+	top: 10px;
+}
+ul li{
+	list-style: none;
+	position: relative;
+	padding-top: 10px;
+}
+.tip input{
+	position: relative;
+	float: right;
+}
+.tip label{
+	position: relative;
+	left: 200px;
+}
+select{
+	position: relative;
+	left: 155px;
+}
+#fan label{
+	position: relative;
+	left: 60px;
+}
+.bits label{
+	position: relative;
+	left: 60px;
+}
+#explore{
+	position: relative;
+	left: 340px;
+}
+#bat label{
+	position: relative;
+	left: 60px;
+}
+textarea{
+	display: block;
+	text-align: center;
+	width: 500px;
+	height: 70px;
+}
+.fit{
+	position: relative;
+	left:100px;
+	font-size: 25px;
+}
+#fil{
+	font-family: sans-serif;
+	position: relative;
+	left: 340px;	
+}
+em{
+	font-family: sans-serif;
+	position: relative;
+	left: 350px;
+}
+#recommend{
+	position: relative;
+	left: 330px;
+}
+#fim input{
+	position: relative;
+	left: 450px; 
+}
+label{
+	cursor: pointer;
+}

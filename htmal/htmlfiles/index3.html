@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+rel = "stylesheet">
+
+</head>
+<body>
+    <input type="text" id="datepick">
+    <br>
+    <h1>select date</h1>
+
+    <br>
+    <img src="oogway.jpg" id="mant" height="300" width="300" title="oogway thoughts" >
+    <div id="motu">
+
+        <h1>Trust</h1>
+        <p>it's really tough to trust anyone in todays situation</p>
+        <h1>Respect</h1>
+        <p>no matter what if their's no respect then it's better to end things....
+            because if someone doesn't respect you then you would be treated as someone
+             on whom people just do shit and show sympathy
+        </p>
+        <h1>Attitude</h1>
+        <p>Always have positive attitude and for sure giving up is not an option</p>
+    </div>
+    <button id="mixr" title="message box" > for dialogbox</button>
+    <div id="midf">
+        <h2>
+            D'silva dumb
+        </h2>
+        <h3>awesome</h3>
+        <p>picassu the great</p>
+    </div>
+    
+</body>
+
+
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<script>
+    $("#datepick").datepicker({
+        numberOfMonths:1,
+        changeYear:true,
+        changeMonth:true,
+        showWeek:true,
+        showOtherMonths:true,
+        weekHeader:"W",
+        yearRange:"2005:2025",
+        yearSuffix: "yearCE"
+
+
+    })
+    document.querySelector("#datepick").addEventListener("change",function (event){
+
+        console.log(event)
+
+    })
+
+    $("#mant").tooltip({
+        track:true,
+   // show:{effect:"bounce",duration:3000}
+       show:{effect:"pulsate",duration:3000}
+     //   show:{effect:"highlight",duration:2000}
+
+        //show:{effect:"explode",duration:2000}
+       // show:{effect:"blind",duration:2000},
+       // hide:{effect:"explode",duration:2000}
+
+
+    })
+
+    $("#motu").accordion({//this can be use to reduce size and length of stuff displayed by no.
+        collapsible:true,
+        event:"click",
+        animate:500,
+        active:0,
+        heightStyle:true,
+        icons:{header:"ui-icon-plus",activeHeader:"ui-icon-minus"}
+    })
+
+    $("#mixr").click(function(){
+
+        $("#midf").dialog({
+
+            draggable:true,
+            title:"custom message box",
+            modal:true,
+            resizable:true,
+            buttons:[
+            {
+                text:"ok",
+                icon:"ui-icon-plus",
+                click:function (){
+                    $(this).dialog("close")
+                }
+            },
+            {
+                text: "d'silva",
+                icon: "ui-icon-trash",
+                click:function(){
+
+                    $(this).dialog("close")
+
+                }
+
+            }
+
+
+            ]
+
+
+        })
+
+
+    })
+
+    $("#midf").dialog({
+
+draggable:true,
+title:"custom message box",
+modal:true,
+resizable:true,
+buttons:[
+{
+    text:"ok",
+    icon:"ui-icon-plus",
+    click:function (){
+        $(this).dialog("close")
+    }
+},
+{
+    text: "d'silva",
+    icon: "ui-icon-trash",
+    click:function(){
+
+        $(this).dialog("close")
+
+    }
+
+}
+
+
+]
+
+
+})
+
+
+</script>
+
+
+</html>

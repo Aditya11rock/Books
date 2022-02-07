@@ -1,0 +1,110 @@
+#maincontainer {
+
+ width: 70%;
+ height:100vh;
+ background-color: #00ff44;
+ margin: auto;
+ border: 10px solid seagreen;
+ border-radius: 10px;
+ margin-top: 20px;
+text-align: center;
+min-width: 500px;
+
+
+
+}
+
+h1 {
+
+font-size: 45px;
+font-family:cursive;
+font-style: italic;
+color: #1115f5;
+margin: 10px;
+text-shadow: 3px 3px 4px red;
+
+
+}
+#secondmaincontainer{
+
+    width: 70%;
+    background-color: #a00ffa;
+    margin: auto;
+    padding: 2%;
+    border: 15px solid #380657;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+
+}
+
+#thirdcontainer {
+ 
+    width: 80%;
+    background-color: red;
+    border: 4px solid brown;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+ul li{
+
+    font-size: 25px;
+    list-style: none;
+    text-align: left;
+    list-style-position:inside;
+    border: 3px solid #f5ed05;
+    border-radius: 5px;
+    background-color: #f5f3ce;
+    margin: 5px;
+
+}
+
+#entertodo {
+
+width: 60%;
+height: 30px;
+border: 4px solid gray;
+border-radius: 10px;
+padding-left:10px;
+font-size: 15px;
+margin: 5px;
+
+}
+
+button {
+
+    width: 25%;
+    height: 40px;
+    border: 3px solid rgb(43, 41, 41);
+    margin: 2px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#add {
+
+    background-color: #1d4f02;
+
+}
+
+#deletetask {
+
+    background-color: #2552f5;
+
+}
+
+#reset {
+
+    background-color: #fa3d1b;
+
+}
+
+
